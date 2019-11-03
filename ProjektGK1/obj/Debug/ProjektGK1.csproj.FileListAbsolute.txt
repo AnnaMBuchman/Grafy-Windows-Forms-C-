@@ -1,0 +1,9 @@
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\bin\Debug\ProjektGK1.exe.config
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\bin\Debug\ProjektGK1.exe
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\bin\Debug\ProjektGK1.pdb
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.csprojAssemblyReference.cache
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.Form1.resources
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.Properties.Resources.resources
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.csproj.GenerateResource.cache
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.exe
+C:\Users\anna.buchman\source\repos\ProjektGK1\ProjektGK1\obj\Debug\ProjektGK1.pdb

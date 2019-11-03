@@ -1,0 +1,46 @@
+U¿ywany jest tylko lewy klawisz myszy
+Program zaczyna sie narysowaniem 2 grafów
+
+
+Przycisk Vertex:
+1.WYbranie 'Move Graph' i z³apanie za wierzcho³ek i poruszenie myszk¹ rusza ca³ym grafem.
+2.Wybranie 'Move Vertex' i z³apanie za wierzcho³ek i porusznie myszk¹ rusza wierzcho³kiem i pol¹czonymi z nim krawêdziami
+3.Wybranie 'Delete Vertex' i klikniêcie istniej¹cego wierzcho³ka usuwa go gdy wierzcho³ek by³ rozcinaj¹cym graf to graf zast¹piony jest dwoma grafami
+Usuniêcie dowolnego wierzcho³ka z grafu skoñczonego powoduje ustawienie go jako nie zamkniêty (nie mo¿na dodawaæ relacji do takiego)
+4 Wybranie 'Add Vertex' i klikniêcie w dowolnym miejscu na plaszy powoduje dodanie wierzcho³ka do ostatnio tworzonego grafu jeœli jest nie zamkniêty lub stworzenia nowego
+
+
+Przycisk Edges:
+1.wybranie 'Move Edges' a nastêpnie z³apanie za krawêdŸ i poruszenie myszk¹ rusza krawêdzi¹ i po³¹czonymi z ni¹ wierzcho³kami i znimi krawêdziami
+(sumarycznie maksymalnie 3 krawêdzie i 2 wierzcho³ki siê mog¹ poruszaæ)
+2.Wybranie z menu 'Add Vertex To Graph' a nastêpnie klikniêcie na krawêdŸ dodaje nowy wierzcho³ek na krawêdzi w miejscu klikniêcia.
+
+Uwagi:
+Przyciski Move dzia³aj¹ w trybie MouseDown, trzeba mieæ wciœniêty lewy przycisk myszki by poruszaæ
+Przyciski dzia³aja tak d³ugo a¿ nie zmieni siê na inny(np. jeœli zostanie wybrany 'Move Graph' to po puszczeniu myszki graf siê zatrzyma,
+ale mogê znów poruszyæ grafem klikaj¹c na dowolny wierzcho³ek i przeci¹gaj¹c myszkê)
+
+Przycisk 'Clear' czyœci bitmapê i usuwa z listy wszystkie grafy i ich w³aœciwoœci
+Przycisk z menu 'Finish Graph' koñczy budowany graf, gdy ostatni graf zosta³ skoñczony automatycznie w³¹cza siê dodawanie
+wierzcho³ków nastêpnego grafu, chyba ¿e wczeœniej zosta³a wybrana inna opcja np. "Move Graph".
+
+
+Relacje:
+Za³o¿nie Graf musi byæ skoñczony by móc dodaæ relacje, jak usuwamy wierzcho³ek relacje znikaj¹.
+
+By dodaæ/odj¹æ relacje trzeba klik¹æ na menu 'Properties':
+1.Równoleg³oœæ mo¿na dodaæ wybieraj¹c z menu 'Parallel' a nastêpnie klikaj¹c na dwie krawêdzie
+2.Równoœæ mo¿na dodaæ wybieraj¹c z menu 'Same Length' a nastêpnie klikaj¹c na dwie krawêdzie
+Dadanie relacji na s¹siednich nie jest mo¿liwe
+3. By usun¹æ relacje trzeba wybrac z menu 'Remove Property' i klikn¹æ na krawêdŸ(klikniêcie na oznaczenie nie zadzia³a)
+4. Dodawanie wierzcho³ka na krawêdzi, na której jest relacja usuwa relacje
+5. Usztywnianie krawêdzi wybieraj¹c 'Dont move' i klikaj¹c myszk¹ na wierzcho³ek Uwaga: trzeba klikn¹æ w obszarze takim jak wczeœniej by³ wierzcho³ek(czyli blizej œrodka)
+Krawêdzi nie da siê poruszyæ samej, nie da siê wtedy poruszyæ za jak¹kolwiek krawêdŸ grafu, da siê ruszaæ krawêdziamy,
+ale tylko tymi któr nie zawieraj¹ tego wierzcho³ka
+
+Uwaga:
+Nie doda siê nowa relacja gdy jest na grafie inna
+
+
+
+Anna Buchman
